@@ -1532,6 +1532,14 @@ input, button {
     }
 }
 
+@media (max-width: 359px) {
+    .post__container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 @media (max-width: 1199px) and (orientation: landscape) {
     .trands__container {
         max-width: 100vw;
