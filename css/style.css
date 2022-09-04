@@ -1061,7 +1061,7 @@ input, button {
 
     .article__img {
         width: 391px;
-        min-height: 302px;
+        height: 302px;
     }
 
     .article__content {
@@ -1331,7 +1331,7 @@ input, button {
     .article__img {
         width: calc(100vw - 30px);
         max-width: 330px;
-        max-height: 255px;
+        height: 255px;
     }
 
     .article__content {
@@ -1444,6 +1444,7 @@ input, button {
     .product__container {
         width: 100vw;
         max-width: 330px;
+        padding: 18px 24px 30px 21px;
     }
 
     .product__container::after {
