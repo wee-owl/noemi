@@ -1072,39 +1072,16 @@ input, button {
         top: 0;
         right: -100%;
         width: 200px;
-        max-height: calc(100vh - 20px);
         display: none;
         padding: 80px 0 20px;
         background-color: rgba(181, 159, 91, 0.8);
-        overflow-y: auto;
         z-index: 9;
     }
 
     .burger__nav_active {
         display: block;
+	right: -10px;
         transition: 0.3s ease-in-out;
-    }
-
-    .nav__list::-webkit-scrollbar {
-        width: 5px;
-        height: 5px;
-    }
-    
-    .nav__list::-webkit-scrollbar-button:start:decrement,
-    .nav__list::-webkit-scrollbar-button:end:increment  {
-        height: 1px;
-        background-color: transparent;
-    }
-    
-    .nav__list::-webkit-scrollbar-track-piece  {
-        background-color: rgba(181, 159, 91, 0.3);
-        border-radius: 5px;
-    }
-    
-    .nav__list::-webkit-scrollbar-thumb:vertical {
-        height: 5px;
-        background-color: rgb(255, 255, 255, 0.7);
-        border-radius: 5px;
     }
 
     .nav__items {
