@@ -1036,6 +1036,7 @@ input, button {
 
     .burger__list {
         position: relative;
+        top: 15px;
         display: flex;
         align-items: center;
         width: 23px;
@@ -1289,6 +1290,10 @@ input, button {
     .burger__menu {
         top: 9px;
         right: 16px;
+    }
+    
+    .burger__list {
+	    top: 0;
     }
 
     .logo {
