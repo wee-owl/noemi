@@ -1384,6 +1384,10 @@ input, button {
         width: 100%;
         height: 48px;
     }
+	
+    .search__input:focus {
+        padding-bottom: 13px;
+    }
 
     .search__submit {
         width: 55px;
