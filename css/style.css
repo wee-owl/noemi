@@ -170,7 +170,7 @@ input, button {
     content: "";
     display: block;
     width: 66px;
-    border: 2px solid rgba(181, 159, 91, 0.4);
+    border-top: 2px solid rgba(181, 159, 91, 0.4);
     margin: 8px auto 28px auto;
 }
 
@@ -390,7 +390,7 @@ input, button {
     content: "";
     display: block;
     width: 66px;
-    border: 2px solid rgba(181, 159, 91, 0.4);
+    border-top: 2px solid rgba(181, 159, 91, 0.4);
     margin: 13px auto 29px auto;
 }
 
@@ -510,7 +510,7 @@ input, button {
     content: "";
     display: block;
     width: 66px;
-    border: 2px solid rgba(181, 159, 91, 0.4);
+    border-top: 2px solid rgba(181, 159, 91, 0.4);
     margin: 10px auto 20px auto;
 }
 
@@ -576,7 +576,7 @@ input, button {
     content: "";
     display: block;
     width: 66px;
-    border: 2px solid rgba(181, 159, 91, 0.4);
+    border-top: 2px solid rgba(181, 159, 91, 0.4);
     margin: 9px auto 25px auto;
 }
 
@@ -622,7 +622,7 @@ input, button {
     content: "";
     display: block;
     width: 66px;
-    border: 2px solid rgba(181, 159, 91, 0.4);
+    border-top: 2px solid rgba(181, 159, 91, 0.4);
     margin: 11px auto 20px auto;
 }
 
@@ -666,7 +666,7 @@ input, button {
     content: "";
     display: block;
     width: 66px;
-    border: 2px solid rgba(181, 159, 91, 0.4);
+    border-top: 2px solid rgba(181, 159, 91, 0.4);
     margin: 8px auto;
 }
 
@@ -852,7 +852,7 @@ input, button {
     content: "";
     display: block;
     width: 66px;
-    border: 2px solid rgba(181, 159, 91, 0.4);
+    border-top: 2px solid rgba(181, 159, 91, 0.4);
     margin: 8px auto;
 }
 
@@ -1398,10 +1398,6 @@ input, button {
 
     .newsletter__form {
         width: 100%;
-    }
-
-    .newsletter__input {
-        padding: 17px;
     }
 
     .tag {
