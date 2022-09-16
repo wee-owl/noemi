@@ -913,6 +913,7 @@ input, button {
     margin: 6px 3px 0px 5px;
     outline: 1px solid rgb(181, 159, 91);
     outline-offset: 2px;
+    border: 1px solid transparent;
     border-radius: 50%;
     transition: 0.2s all ease-in-out;
     cursor: pointer;
