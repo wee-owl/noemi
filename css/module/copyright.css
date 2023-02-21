@@ -1,0 +1,27 @@
+.copyright {
+  padding: 70px 0 44px 0;
+  text-align: center;
+}
+
+.copyright__content {
+  font-family: "opensans_bold", sans-serif;
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+  transition: 1s;
+}
+
+.copyright__content:hover {
+  color: rgb(181, 159, 91);
+}
+
+@media (max-width: 1199px) {
+  .copyright {
+    padding: 44px 0 36px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .copyright {
+    padding: 45px 0;
+  }
+}
