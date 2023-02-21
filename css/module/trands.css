@@ -20,12 +20,12 @@ z-index: 10;
 
 .trands__arrow-left {
 left: 15px;
-background-image: url('../images/icon/arrow-left.svg');
+background-image: url('../../images/icon/arrow-left.svg');
 }
 
 .trands__arrow-right {
 right: 15px;
-background-image: url('../images/icon/arrow-right.svg');
+background-image: url('../../images/icon/arrow-right.svg');
 }
 
 .trands__arrow-left:hover, 
