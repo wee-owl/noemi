@@ -73,7 +73,7 @@
   -webkit-appearance: none;
   appearance: none;
   background-color: rgb(244, 247, 246);
-  background-image: url("../images/icon/form-arrows.svg"), linear-gradient(to bottom, rgb(244, 247, 246) 0%,rgb(244, 247, 247) 100%);
+  background-image: url("../../images/icon/form-arrows.svg"), linear-gradient(to bottom, rgb(244, 247, 246) 0%,rgb(244, 247, 247) 100%);
   background-repeat: no-repeat, repeat;
   background-position: right 12px top 50%, 0 0;
   background-size: 10px auto, 100%;
