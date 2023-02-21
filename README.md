@@ -1,4 +1,4 @@
-## Project: [Noemi](https://wee-owl.github.io/Noemi/)  
+## Project: [Noemi](https://wee-owl.github.io/noemi/)  
 
 ### Description:  
 Noemi - final project of the course "Adaptive and mobile layout" in [Netology](https://netology.ru/).  
