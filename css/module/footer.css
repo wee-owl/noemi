@@ -1,0 +1,37 @@
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.contact {
+  display: flex;
+  gap: 26px;
+  padding: 31px 0 32px;
+  background-color: rgb(244, 247, 246);
+  justify-content: center;
+}
+
+.contact__item {
+  width: 20px;
+  height: 20px;
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+
+.contact__item:hover {
+  transform: scale(1.4);
+  color: rgb(181, 159, 91);
+}
+
+@media (max-width: 1199px) {
+  .footer {
+    padding: 0 35px;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding: 0 15px;
+  }
+}

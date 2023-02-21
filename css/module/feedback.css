@@ -1,0 +1,24 @@
+.feedback {
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  color: rgb(181, 159, 91);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.feedback:hover {
+  color:rgb(50, 50, 50);
+}
+
+@media (max-width: 640px) {
+  .feedback {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .feedback svg {
+    width: 40px;
+    height: 40px;
+  }
+}
