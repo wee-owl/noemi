@@ -91,6 +91,7 @@
 
 .search__input {
   width: 100%;
+  height: 100%;
   padding: 15px;
   font-family: "opensans_regular", sans-serif;
   font-size: 13px;
@@ -110,6 +111,11 @@
 
 .search__input:focus-visible {
   outline: transparent !important;
+}
+
+.search__input::-webkit-search-cancel-button {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .search__submit {
@@ -152,6 +158,7 @@
 
 .newsletter__input {
   width: 100%;
+  height: 100%;
   padding: 15px;
   font-family: "opensans_regular", sans-serif;
   font-size: 13px;
